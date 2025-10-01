@@ -8,8 +8,13 @@ let gymatoriumLock = false;
 let weworkItems = ["loaner laptop", "whiteboard", "conference room", "couch", "printer", "shared table", "Wi-Fi router", "plants", "office chair", "power outlets"];
 let computerLabItems = ["desktop computers", "monitors", "broken laptop", "mice", "Wi-Fi router", "printer", "power strips", "headphones", "USB drives", "chairs", "desks"];
 let mprItems = ["mirrors", "speakers", "chairs", "portable stereo", "projector", "chairs", "posters"];
+let ll = weworkItems[0];
 weworkItems.shift(0);
-
+computerLabItems.push(ll);
+computerLabItems[2] = "fixed laptop"
+console.log(mprItems.length)
+console.log(weworkItems)
+console.log(computerLabItems)
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 3rd Floor
@@ -51,7 +56,13 @@ let afterSchoolClubs = {
         }     
     ]
 }
-
+scoreValues.C = "Consistency"
+scoreValues.O = "Ownership"
+scoreValues.E = "Excellence"
+console.log(scoreValues)
+afterSchoolClubs.athletic[0].club = "British Football Club"
+afterSchoolClubs.social[2].club = "Balcony"
+console.log(afterSchoolClubs)
 
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
