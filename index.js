@@ -68,15 +68,18 @@ console.log(afterSchoolClubs)
 // ----------------------------
 // 4th Floor
 // Uncomment the code below to begin this task
+function takeCareOfPet(snacks, pets){
 
-const takeCareOfPet = (snacks, pets) => {
-if (snacks[2] === "hotdogs" && pets > 10) {
-return "Raccoon has been appeased"
-} else {
-return "The raccoon bit you and you died of rabies."
+    if(snacks[2]=== "hotdogs" && pets > 10){
+        return "Raccoon Has Been Appeased"
+    } else {
+        return "Raccon BITE!"
+    }
 }
-console.log(takeCareOfPet(snacks,pets))
-}
+console.log((takeCareOfPet["dog","icecube", "hotdogs"], 19))
+
+
+
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 5th Floor
